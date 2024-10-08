@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 ob_start();
 ?>
 
-<h1 class="text-center">edit data pelanggan</h1>
+<h1 class="text-center">edit data gudang</h1>
 
 <form action="view_edit_werehouse.php?id=<?php echo $werehouse->id; ?>" method="post">
     <div class="card container mx-auto">
